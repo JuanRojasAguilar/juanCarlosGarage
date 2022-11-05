@@ -1,0 +1,34 @@
+@use "./vars";
+
+.presentationDiv {
+    display: flex;
+    flex-direction: column;
+    margin-left: 120px;
+    margin-top: 60px;
+}
+div p {
+    font-weight: 600;
+    font-size: var(--sm);
+    color: var(--aquamarine);
+    margin-bottom: 0px;
+}
+div h1 {
+    margin: 16px 0 20px;
+    font-weight: 700;
+    font-size: var(--lg);
+    color: var(--very-light-grey);
+    text-shadow: 0 0 2px var(--dark-grey);
+}
+div button {
+    width: 192px;
+    height: 86px;
+    color: var(--aquamarine);
+    background-color: var(--dark-grey);
+    border: 1px solid var(--aquamarine);
+    font-weight: 700;
+    font-size: var(--sm)
+}
+div button:hover {
+    background-color: var(--aquamarine);
+    color: var(--very-light-grey);
+}
