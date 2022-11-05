@@ -1,6 +1,7 @@
 import React, {useState, useContext} from "react"
 import "@styles/Header.scss"
 import garageLogo from "@logos/garage-logo.png"
+import downArrow from "@icons/down-arrow.svg"
 
 const Header = () => {
     return(
@@ -9,6 +10,7 @@ const Header = () => {
             <ul>
                 <li>
                     <a href="/">Servicios</a>
+                    <img src={downArrow} className="down-arrow" />
                 </li>
                 <li>
                     <a href="/">Nosotros</a>
@@ -20,7 +22,8 @@ const Header = () => {
                     <a href="/">Tutti</a>
                 </li>
                 <li>
-                    <a href="/">Contacto</a>
+                    <a href="/">CONTACTO</a>
+                    <img src={downArrow} className="down-arrow" />
                 </li>
             </ul>
         </nav>

@@ -1,5 +1,7 @@
 @use "./vars";
 
 body {
-    background: blue;
+    background: linear-gradient(81deg, var(--light-grey) 18%, rgba(178, 178, 178, 0) 93%), url("../assets/images/twoCars.jpg");
+    background-blend-mode: lighten, normal;
+    background-size: cover;
 }
