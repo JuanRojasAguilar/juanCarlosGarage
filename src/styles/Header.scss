@@ -1,0 +1,33 @@
+@use "./vars";
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+nav img {
+    width: 149.24px;
+    height: 150px;
+
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    
+}
+nav ul li:nth-child(5) {
+    background-color: var(--dark-grey);
+    padding: 10px;
+    border: 1px solid var(--aquamarine);
+}
+nav ul li a {
+    color: var(--very-light-grey);
+    text-decoration: none;
+    padding: 8px;
+    font-size: var(--sm);
+    font-weight: 700;
+}
+nav ul li a:hover {
+    border-bottom: 2px solid var(--aquamarine);
+}
