@@ -2,3 +2,7 @@ body {
     margin: 0;
     font-family: 'Inter', sans-serif;
 }
+.pageBackground {
+    background-size: cover;
+    min-height: 100vh;
+}
