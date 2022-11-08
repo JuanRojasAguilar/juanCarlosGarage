@@ -1,0 +1,45 @@
+@use "./vars";
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.garageLogo {
+    width: 149.24px;
+    height: 150px;
+
+}
+.nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    margin-right: 28px;
+}
+.nav ul li {
+    padding: 24px 24px 12px;
+    margin-right: 20px;
+}
+.nav ul li:nth-child(5) {
+    background-color: var(--dark-grey);
+    padding: 20px 16.5px;
+    align-items: center;
+    border: 1px solid var(--aquamarine);
+}
+.nav ul li a {
+    color: var(--very-light-grey);
+    text-decoration: none;
+    font-size: var(--sm);
+    font-weight: 700;
+    text-shadow: 0 0 1px var(--dark-grey);
+}
+.nav ul li:hover {
+    cursor: pointer;
+    border-bottom: 2px solid var(--aquamarine);
+}
+.downArrow {
+    width: 20px; 
+    height: 12px;
+}

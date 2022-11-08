@@ -1,0 +1,10 @@
+@use "./vars";
+
+.cardsContainers {
+    display: grid;
+}
+.card{
+    border: 1px solid white;
+    width: 200px;
+    height: 200px;
+}
